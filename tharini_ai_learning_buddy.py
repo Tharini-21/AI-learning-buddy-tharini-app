@@ -28,7 +28,7 @@ except Exception as e:
 
 # 3. Kill local background tasks
 
-!pkill -f ngrok
+
 ngrok.kill()
 time.sleep(2)
 
