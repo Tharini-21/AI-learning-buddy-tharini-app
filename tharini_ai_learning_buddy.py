@@ -126,4 +126,4 @@ time.sleep(4)
 
 
 print("\n🎉 SUCCESS! Click this link to open your project:")
-print(public_url)
+
