@@ -52,7 +52,7 @@ import time
 from google.colab.output import eval_js
 
 # 1. Clear out any previous remnants
-!pkill -f streamlit
+
 
 # 2. Boot up your Streamlit application
 print("Starting Streamlit server...")
