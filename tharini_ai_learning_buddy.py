@@ -65,7 +65,6 @@ time.sleep(4)
 
 
 print("\n🎉 SUCCESS! Click your built-in Google proxy link below:")
-print(public_url)
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
