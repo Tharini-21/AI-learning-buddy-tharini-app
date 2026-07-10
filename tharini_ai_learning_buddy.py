@@ -49,7 +49,7 @@ except Exception as e:
 
 import subprocess
 import time
-from google.colab.output import eval_js
+
 
 # 1. Clear out any previous remnants
 
@@ -124,7 +124,7 @@ subprocess.Popen([
 time.sleep(4)
 
 # 4. Generate the Google Colab internal link again
-public_url = eval_js("google.colab.kernel.proxyPort(8501)")
+
 
 print("\n🎉 SUCCESS! Click this link to open your project:")
 print(public_url)
