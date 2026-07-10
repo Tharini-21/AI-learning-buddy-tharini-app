@@ -108,7 +108,7 @@ import time
 from google.colab.output import eval_js
 
 # 1. Force kill any existing background instances to start clean
-!pkill -f streamlit
+
 
 # 2. Launch Streamlit while disabling CORS, XSRF, and WebSocket Compression checks
 print("Launching Streamlit with proxy security bypassed...")
