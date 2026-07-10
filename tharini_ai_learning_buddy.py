@@ -62,7 +62,7 @@ subprocess.Popen(["streamlit", "run", "app.py", "--server.port", "8501"])
 time.sleep(4)
 
 # 4. Use Google's internal API to route port 8501 to a safe browser link
-public_url = eval_js("google.colab.kernel.proxyPort(8501)")
+
 
 print("\n🎉 SUCCESS! Click your built-in Google proxy link below:")
 print(public_url)
