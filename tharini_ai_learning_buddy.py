@@ -104,7 +104,7 @@ print("\n🎉 SUCCESS! Click your built-in Google proxy link below:")
 
 import subprocess
 import time
-from google.colab.output import eval_js
+
 
 # 1. Force kill any existing background instances to start clean
 
