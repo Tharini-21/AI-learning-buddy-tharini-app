@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1dJ8CL6fpdmy0hCtEKKSOctx_ZjYAh-dj
 """
 
-!pip install pyngrok streamlit google-generativeai
+
 
 import subprocess
 import time
