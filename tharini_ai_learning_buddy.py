@@ -27,7 +27,7 @@ except Exception as e:
     print("No active tunnels found in local memory pool.")
 
 # 3. Kill local background tasks
-!pkill -f streamlit
+
 !pkill -f ngrok
 ngrok.kill()
 time.sleep(2)
