@@ -1,0 +1,3 @@
+pyngrok 
+streamlit
+google-generativeai
